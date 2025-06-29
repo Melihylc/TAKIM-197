@@ -1,1 +1,2 @@
 # TAKIM-197
+Takım - 197 AI
