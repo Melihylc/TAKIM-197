@@ -5,7 +5,7 @@ Takım - 197 AI
 ## 👥 Takım Üyeleri ve Rolleri
 - **Ayyüce Gürer** – Scrum Master  
 - **Melih Yolcu** – Geliştirici  
-- **Aksaanur Yeşil** – Geliştirici  
+- **Aksanur Yeşil** – Geliştirici  
 - **Deniz Çaylı** – Geliştirici  
 - **Esra Tuğrul** – Geliştirici
 
