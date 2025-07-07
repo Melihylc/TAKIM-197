@@ -10,7 +10,7 @@ Takım - 197 AI
 - **Esra Tuğrul** – Geliştirici
 
 ## 📌 Backlog Linki
-[Trello Backlog Linki buraya eklenecek]()
+(https://takim197.atlassian.net/)
 
 ## 📄 Ürün Açıklaması
 Bu proje, kullanıcının genetik verilerini analiz ederek belirli hastalıklara veya durumlara yatkınlıklarını tahmin etmeyi amaçlamaktadır. Kullanıcının genetik kodu üzerinden sağlık durumu hakkında kişiselleştirilmiş bilgiler ve öneriler sunulur.
