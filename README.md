@@ -54,7 +54,8 @@ kriterleri dikkate alındı. Veri seti araştırması yüksek doğruluk ve güve
 Sprint boyunca her gün takım üyeleriyle düzenli toplantılar yapıldı. Her üye kendi görevini ve ilerlemesini paylaştı. Bu süreçte herhangi bir engelle karşılaşılmadı.
 
 ## 📋 Sprint Board Ekran Görüntüsü
-> Buraya Trello / Jira / ClickUp sprint board ekran görüntüsü eklenecektir.  
+![trello](https://github.com/user-attachments/assets/5ae5251e-4152-4815-aba5-f171d6077ed3)
+ 
 
 ## 💻 Ürün Durumu (Ekran Görüntüsü)
 - Veri seti kaynakları belirlendi.  
