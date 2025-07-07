@@ -52,6 +52,8 @@ kriterleri dikkate alındı. Veri seti araştırması yüksek doğruluk ve güve
 
 ## 🗓 Daily Scrum Özeti
 Sprint boyunca her gün takım üyeleriyle düzenli toplantılar yapıldı. Her üye kendi görevini ve ilerlemesini paylaştı. Bu süreçte herhangi bir engelle karşılaşılmadı.
+![wp grup](https://github.com/user-attachments/assets/527cc329-9a04-434e-be15-ef2f6a257a0a)
+
 
 ## 📋 Sprint Board Ekran Görüntüsü
 ![trello](https://github.com/user-attachments/assets/5ae5251e-4152-4815-aba5-f171d6077ed3)
