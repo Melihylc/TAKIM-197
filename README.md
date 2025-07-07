@@ -52,7 +52,8 @@ kriterleri dikkate alındı. Veri seti araştırması yüksek doğruluk ve güve
 
 ## 🗓 Daily Scrum Özeti
 Sprint boyunca her gün takım üyeleriyle düzenli toplantılar yapıldı. Her üye kendi görevini ve ilerlemesini paylaştı. Bu süreçte herhangi bir engelle karşılaşılmadı.
-![Uploading wp grp197.png…]()
+![wp grp197](https://github.com/user-attachments/assets/7fce8eb4-ccad-4430-9b97-8ae0e4623650)
+
 
 
 
