@@ -1,5 +1,0 @@
-mv asthma_model.pkl asthma_risk_model/
-mv feature_names.pkl asthma_risk_model/
-mv asthma_cleaned.csv asthma_risk_model/
-mv asthma_disease_data.csv asthma_risk_model/
-mv asthma_model1.ipynb asthma_risk_model/
