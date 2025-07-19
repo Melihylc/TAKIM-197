@@ -58,6 +58,7 @@ Sprint boyunca her gün takım üyeleriyle düzenli toplantılar yapıldı. Her 
 
 
 ## 📋 Sprint Board Ekran Görüntüsü
+Aşağıda proje yönetiminde kullandığımız Trello board ekran görüntüsünü görebilirsiniz.
 ![trello](https://github.com/user-attachments/assets/5ae5251e-4152-4815-aba5-f171d6077ed3)
  
 
@@ -135,6 +136,7 @@ Sprint boyunca her gün düzenli olarak takım içi toplantılar gerçekleştiri
 ---
 
 ## 📋 Sprint Board Ekran Görüntüsü  
+Aşağıda proje yönetiminde kullandığımız Trello board ekran görüntüsünü sprint 2 raporu için güncellenmiş olarak görebilirsiniz.
 <img width="1298" height="854" alt="sprint 2" src="https://github.com/user-attachments/assets/3a59f88b-4a24-4d84-af0c-eb6d778daa14" />
 
 ---
