@@ -180,3 +180,94 @@ Sprint başında planlanan tüm teknik ve tasarımsal hedefler başarıyla tamam
 ### 🔚 Not:  
 Bu sprintte elde edilen kazanımlar, kişisel sağlık analizini daha işlevsel hale getirecek şekilde yapay zekâ destekli modellerin temellerini attı ve kullanıcıya sunulacak web platformunun ilk versiyonuna önemli bir adım atıldı.
 
+# 🚀 Sprint 3 Raporu  
+📅 **Sprint Tarihleri**: 21 Temmuz – 03 Ağustos 2025  
+
+---
+
+## 📝 Sprint Notları  
+Bu sprintte **Predisure AI**’nin tamamlanması hedeflendi ve tüm temel bileşenleri başarıyla entegre edilerek ürün son haline ulaştırıldı. Kullanıcı arayüzünde yapılan görsel ve işlevsel iyileştirmelerle birlikte, projenin en dikkat çeken özelliği olan **akıllı sağlık sohbet botu (Gemini destekli)** entegre edildi.
+
+Kullanıcıların sağlık risklerini öğrenmesini kolaylaştırmak ve platformu daha erişilebilir hale getirmek adına giriş ekranları ve veri giriş alanları sadeleştirildi. Ayrıca **vücut kitle indeksi (BMI)** hesaplayıcısı gibi tamamlayıcı modüller eklendi. Kod kalitesi artırılarak sistem sürdürülebilir hale getirildi.
+
+---
+
+## 📊 Sprint Puanları
+
+| Görev Adı                                                      | Story Point | Durum         |
+|----------------------------------------------------------------|-------------|---------------|
+| Web arayüzünde başlık ve bilgi alanlarının sadeleştirilmesi    | 2 SP        | ✅ Tamamlandı |
+| Gemini destekli sağlık sohbet botu entegrasyonu                | 5 SP        | ✅ Tamamlandı |
+| Arayüz animasyonlarının iyileştirilmesi                        | 2 SP        | ✅ Tamamlandı |
+| Renk paletinin güncellenmesi                                   | 1 SP        | ✅ Tamamlandı |
+| A/B testleriyle kullanıcı deneyimi optimizasyonu               | 3 SP        | ✅ Tamamlandı |
+| Yeni risk senaryoları ve etki analizlerinin genişletilmesi     | 3 SP        | ✅ Tamamlandı |
+| Kod refactoring                                                | 2 SP        | ✅ Tamamlandı |
+| Vücut kitle indeksi (BMI) modülü eklenmesi                     | 3 SP        | ✅ Tamamlandı |
+| Uygulama adı belirlenmesi (Predisure AI)                       | 1 SP        | ✅ Tamamlandı |
+| Kodlamalarda final düzenlemelerin yapılması                    | 3 SP        | ✅ Tamamlandı |
+
+**Toplam SP**: 25  
+**Tamamlanan SP**: 25  
+**Tamamlama Oranı**: %100 ✅  
+
+---
+
+## 🎯 Puanlama Mantığı  
+Görevlerin puanlamasında şu kriterler dikkate alındı:
+
+- Kullanıcı deneyimine etkisi (örneğin: arayüz sadeleştirme, A/B testleri)  
+- Teknik zorluk ve entegrasyon karmaşıklığı (örneğin: Gemini entegrasyonu)  
+- Ürün bütünlüğüne katkısı (örneğin: BMI modülü, refactoring)  
+- Görsel tutarlılık ve etkileşim seviyeleri (örneğin: animasyon, renk değişimi)  
+
+---
+
+## 🗓 Daily Scrum Özeti  
+Sprint boyunca her gün düzenli yapılan takım içi toplantılarla ilerleyiş yakından takip edildi. Her üye yaptığı geliştirmeleri ve varsa engelleri paylaştı. Bu sprintte herhangi bir gecikme ya da blokaj yaşanmadı. A/B testlerinden alınan geri bildirimler günlük toplantılarda değerlendirilerek anlık iyileştirmelere gidildi.
+
+---
+
+## 📋 Sprint Board Ekran Görüntüsü  
+Sprint 3'e ait Trello/Jira panosunda tüm görevler planlandığı şekilde tamamlandı.  
+> *(Görsel buraya eklenebilir)*
+
+---
+
+## 💻 Ürün Durumu  
+**Predisure AI** artık kullanıma hazır bir sağlık teknolojisi platformudur. Ürünün son durumu:
+
+- ✅ Sağlık sohbet botu (Gemini) doğal dilde etkileşim kurabiliyor  
+- ✅ Kullanıcı arayüzü sade, renk uyumlu ve mobil uyumlu hale getirildi  
+- ✅ Risk tahmin modelleri başarıyla entegre edildi  
+- ✅ Vücut kitle indeksi (BMI) hesaplayıcısı aktif  
+- ✅ Kod yapısı optimize edildi ve dökümante edildi  
+- ✅ Giriş, hesaplama ve sonuç ekranları eksiksiz çalışıyor  
+
+---
+
+## 🔍 Sprint Review  
+Sprint 3 hedefleri eksiksiz karşılandı. Predisure AI, genetik verilerden hastalık riski hesaplayan ve kişisel öneriler sunan kullanıcı dostu bir sağlık platformuna dönüştü. Geliştirilen tüm modüller sorunsuz şekilde entegre edildi ve sistem yayına hazır hale getirildi.
+
+---
+
+## 🔄 Sprint Retrospective  
+
+### ✅ İyi Gidenler:
+- Kullanıcı geri bildirimlerine göre hızlı geliştirmeler yapıldı  
+- Ekip içi iş bölümü ve koordinasyon verimliydi  
+- Teknik hedeflerin tümü başarıyla tamamlandı  
+
+### 🛠️ Geliştirilebilecek Noktalar:
+- Mobil cihazlar için daha kapsamlı testler yapılmalı  
+- Veri güvenliği politikaları gelecekte detaylandırılmalı  
+- Sağlık sohbet botunun duygusal tonlama ve kişisel öneri kalitesi geliştirilebilir  
+
+---
+
+## 🔚 Not  
+**Predisure AI**, genetik verilerle kişiselleştirilmiş sağlık risk analizi sunan yapay zekâ destekli dijital bir asistandır. Kullanıcıların sağlık durumlarını daha bilinçli yönetmelerini sağlayan bu platform, hem teknolojik hem de tıbbi açıdan sürdürülebilir bir temelde inşa edilmiştir.
+
+Bu sprintle birlikte ürünün ilk versiyonu başarıyla tamamlanmış, kullanılabilir ve test edilebilir hale getirilmiştir.
+
+
