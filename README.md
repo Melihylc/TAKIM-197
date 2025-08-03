@@ -245,7 +245,13 @@ Sprint 3'e ait Trello/Jira panosunda tüm görevler planlandığı şekilde tama
 - ✅ Risk tahmin modelleri başarıyla entegre edildi  
 - ✅ Vücut kitle indeksi (BMI) hesaplayıcısı aktif  
 - ✅ Kod yapısı optimize edildi ve dökümante edildi  
-- ✅ Giriş, hesaplama ve sonuç ekranları eksiksiz çalışıyor  
+- ✅ Giriş, hesaplama ve sonuç ekranları eksiksiz çalışıyor
+<img width="1848" height="935" alt="sp3 - 1" src="https://github.com/user-attachments/assets/c0bf7bab-6d6d-448a-a10c-b1d733f02f7a" />
+<img width="255" height="355" alt="sp 3 - 2" src="https://github.com/user-attachments/assets/d0cff792-dcd7-41ff-9200-b607f2d47e58" />
+<img width="1818" height="876" alt="sp 3 - 3" src="https://github.com/user-attachments/assets/3d1c843e-7487-4b79-a14a-206f9d01604d" />
+<img width="1816" height="896" alt="sp 3 - 4" src="https://github.com/user-attachments/assets/5a59d925-456f-40b8-baf1-99f78c27b010" />
+
+
 
 ---
 
