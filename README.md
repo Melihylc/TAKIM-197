@@ -18,19 +18,31 @@ Kullanıcı dostu arayüz ve yapay zekâ destekli akıllı sağlık asistanı sa
 Geleceğiniz için sağlıklı bir yaşam yolunda size rehberlik eder.
 
 ## ✨ Ürün Özellikleri
-Genetik Veri Analizi: Kullanıcının genetik yapısını inceleyerek hastalık yatkınlıklarını tahmin eder.
+# Sağlık Risk Analiz Platformu
 
-Kişiselleştirilmiş Risk Raporları: Genetik geçmiş, yaşam tarzı ve sağlık verilerine dayalı özel raporlar sunar.
+Bu proje, kullanıcının genetik verilerini analiz ederek obezite, Alzheimer ve astım gibi hastalıklara yatkınlıklarını tahmin etmeyi amaçlayan yapay zekâ destekli bir sağlık teknolojisi platformudur. Kullanıcının genetik geçmişi, yaşam tarzı ve mevcut sağlık verileri üzerinden kişiselleştirilmiş risk raporları ve öneriler sunar.
 
-Yapay Zekâ Destekli Tahmin: Obezite, Alzheimer ve astım gibi hastalıklara yakalanma riskini önceden belirler.
+## Özellikler
 
-Kullanıcı Dostu Arayüz: Bilgilerin kolayca girilmesini ve sonuçların anlaşılır şekilde görüntülenmesini sağlar.
+- **Genetik Veri Analizi:** Kullanıcının genetik yapısını inceleyerek hastalık yatkınlıklarını tahmin eder.  
+- **Kişiselleştirilmiş Risk Raporları:** Genetik geçmiş, yaşam tarzı ve sağlık verilerine dayalı özel raporlar sunar.  
+- **Yapay Zekâ Destekli Tahmin:** Obezite, Alzheimer ve astım gibi hastalıklara yakalanma riskini önceden belirler.  
+- **Kullanıcı Dostu Arayüz:** Bilgilerin kolayca girilmesini ve sonuçların anlaşılır şekilde görüntülenmesini sağlar.  
+- **Akıllı Sağlık Asistanı:** Karmaşık verileri sadeleştirir, kişiye özel sağlık önerileri sunar.  
+- **Sağlık Yönetimi:** Kullanıcının sağlığını bilinçli şekilde yönetmesine ve yaşam kalitesini artırmasına yardımcı olur.  
+- **Geleceğe Yönelik Destek:** Sağlıklı yaşam alışkanlıkları için rehberlik sağlar.
 
-Akıllı Sağlık Asistanı: Karmaşık verileri sadeleştirir, kişiye özel sağlık önerileri sunar.
+## Kullanım
 
-Sağlık Yönetimi: Kullanıcının sağlığını bilinçli şekilde yönetmesine ve yaşam kalitesini artırmasına yardımcı olur.
+1. Genetik verilerinizi ve sağlık bilgilerinizi platforma girin.  
+2. ‘Hesapla’ butonuna tıklayarak risk analizinizin yapılmasını sağlayın.  
+3. Size özel oluşturulan risk raporlarını inceleyin ve önerileri takip edin.
 
-Geleceğe Yönelik Destek: Sağlıklı yaşam alışkanlıkları için rehberlik sağlar.
+## Katkıda Bulunma
+
+Projeye katkı sağlamak veya önerilerde bulunmak isterseniz, lütfen [iletişim bilgileri] üzerinden bizimle iletişime geçin.
+
+
 
 ## 🎯 Hedef Kitle
 Her yaş grubundan, sağlık durumunu genetik temelli analizlerle öğrenmek isteyen bireyler.
