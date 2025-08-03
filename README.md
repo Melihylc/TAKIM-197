@@ -239,7 +239,7 @@ Sprint 3'e ait Trello/Jira panosunda tüm görevler planlandığı şekilde tama
 
 ## 💻 Ürün Durumu  
 **Predisure AI** artık kullanıma hazır bir sağlık teknolojisi platformudur. Ürünün son durumu:
-
+https://grup-197.web.app/
 - ✅ Sağlık sohbet botu (Gemini) doğal dilde etkileşim kurabiliyor  
 - ✅ Kullanıcı arayüzü sade, renk uyumlu ve mobil uyumlu hale getirildi  
 - ✅ Risk tahmin modelleri başarıyla entegre edildi  
