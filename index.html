@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PredisureAI</title> <!-- Projenizin başlığı güncellendi -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2CEXdGMlF6uF1gQo7h2yqK+KkXf+w7A57fA8w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="loader" id="loader">
+        <div id="lottie-container" style="width: 200px; height: 200px;"></div>
+        <p>Yükleniyor...</p>
+    </div>
+
+    <nav>
+        <div class="logo">
+            <a href="#hero" class="logo-link">
+                <img src="logo.png" alt="PredisureAI Logosu" style="height: 40px;">
+                <div class="site-title-container">
+                    <span class="logo-predisure">Predisure</span><span class="logo-ai">AI</span>
+                </div>
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#hero" class="gemini-icon-link">Anasayfa</a></li>
+            <li><a href="#analysis"><i class="fas fa-vial"></i> Analiz</a></li>
+            <li><a href="#methods"><i class="fas fa-flask"></i> Metodoloji</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> İletişim</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero" id="hero">
+        <video autoplay muted loop id="dna-video">
+            <source src="dna-video.mp4" type="video/mp4" />
+            Tarayıcınız video etiketini desteklemiyor.
+        </video>
+        <div class="hero-content">
+            <div class="main-slider-container">
+                <div class="slider-left-content" data-aos="fade-right">
+                    <h1 id="slider-title">Sağlık <span>Risklerinizi</span> Bilin</h1>
+                    <p id="slider-description">
+                        Kişisel verilerinizle gelecekteki sağlık risklerinizi
+                        keşfedin ve önleyici adımlar atın.
+                    </p>
+                </div>
+                <div class="slider-right-content" data-aos="fade-left" data-aos-delay="200">
+                    <div class="report-selection-slider">
+                        <button class="slider-arrow left-arrow" id="prevCard">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <div class="report-selection-icons" id="reportSlider">
+                            <div class="report-icon-card" data-report="bmi" data-title="BMI <span>Hesaplayın</span>" data-description="Vücut Kitle Endeksinizi (BMI) hızlıca hesaplayarak obezite riskinizi değerlendirmek için ilk adımı atın.">
+                                <i class="fas fa-calculator"></i>
+                                <h3>BMI Hesapla <small>(Vücut Kitle Endeksi)</small></h3>
+                            </div>
+                            <div class="report-icon-card" data-report="asthma" data-title="Astım <span>Risklerinizi</span> Keşfedin" data-description="Hava kirliliği, polen ve diğer faktörlerin astım riskinizi nasıl etkilediğini öğrenin.">
+                                <i class="fas fa-lungs"></i>
+                                <h3>Astım Risk Raporu</h3>
+                            </div>
+                            <div class="report-icon-card" data-report="obesity" data-title="Obezite <span>Risk Faktörleri</span>" data-description="Beslenme alışkanlıklarınız ve yaşam tarzınızın obezite üzerindeki etkilerini analiz edin.">
+                                <i class="fas fa-weight-scale"></i>
+                                <h3>Obezite Risk Raporu</h3>
+                            </div>
+                            <div class="report-icon-card" data-report="alzheimer" data-title="Alzheimer <span>Hastalığı Riski</span>" data-description="Ailenizdeki öyküler ve yaşam tarzı seçimlerinizin Alzheimer riskinizi nasıl şekillendirdiğini anlayın.">
+                                <i class="fas fa-brain"></i>
+                                <h3>Alzheimer Risk Raporu</h3>
+                            </div>
+                            <div class="report-icon-card" data-report="general" data-title="Genel <span>Sağlık Analiziniz</span>" data-description="Yaş, BMI, uyku kalitesi ve stres seviyesi gibi genel faktörlerin sağlığınız üzerindeki etkilerini değerlendirin.">
+                                <i class="fas fa-heart-pulse"></i>
+                                <h3>Genel Sağlık Raporu</h3>
+                            </div>
+                        </div>
+                        <button class="slider-arrow right-arrow" id="nextCard">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="analysis" class="form-section">
+        <div class="form-card" data-aos="fade-up">
+            <h2 id="form-title">
+                <i class="fas fa-notes-medical"></i> Risk Analizi Formu
+            </h2>
+
+            <div id="bmi-form-container" class="report-form-container active">
+                <h3>BMI Hesapla (Vücut Kitle Endeksi)</h3>
+                <form id="bmi-form">
+                    <div class="form-grid bmi-grid">
+                        <div class="form-group"><label for="bmi-age">Yaşınız</label><input type="number" id="bmi-age" placeholder="Örn: 30" class="form-input"></div>
+                        <div class="form-group"><label for="bmi-gender">Cinsiyet</label><select id="bmi-gender" class="form-select"><option value="Male">Erkek</option><option value="Female">Kadın</option></select></div>
+                        <div class="form-group"><label for="bmi-height">Boyunuz (cm)</label><input type="number" id="bmi-height" placeholder="Örn: 175" class="form-input"></div>
+                        <div class="form-group"><label for="bmi-weight">Kilonuz (kg)</label><input type="number" id="bmi-weight" placeholder="Örn: 70" class="form-input"></div>
+                    </div>
+                    <button type="submit" class="predict-btn"><i class="fas fa-check"></i> BMI Hesapla</button>
+                </form>
+                <div id="bmi-result" class="result" style="display: none; margin-top: 20px;"><h4>BMI Sonucunuz: <span id="bmi-value"></span></h4><p id="bmi-category" class="risk-level-text"></p></div>
+            </div>
+            
+            <div id="asthma-form-container" class="report-form-container">
+                <h3>Astım Risk Analizi</h3>
+                <form id="asthma-health-form">
+                    <div class="form-grid">
+                        <div class="form-group"><label for="asthma-Age">Yaş: <span id="asthma-Age-value">45</span></label><input type="range" id="asthma-Age" min="5" max="80" value="45"></div>
+                        <div class="form-group"><label for="asthma-Gender">Cinsiyet</label><select id="asthma-Gender"><option value="Male">Erkek</option><option value="Female">Kadın</option></select></div>
+                        <div class="form-group toggle-group"><label for="asthma-Family_History">Ailede Astım Öyküsü</label><div class="toggle-switch-container"><input type="checkbox" id="asthma-Family_History" class="toggle-switch-input"><label for="asthma-Family_History" class="toggle-switch-label"></label></div></div>
+                        <div class="form-group toggle-group"><label for="asthma-Smoking">Sigara Kullanımı</label><div class="toggle-switch-container"><input type="checkbox" id="asthma-Smoking" class="toggle-switch-input"><label for="asthma-Smoking" class="toggle-switch-label"></label></div></div>
+                        <div class="form-group toggle-group"><label for="asthma-Wheezing">Hırıltı</label><div class="toggle-switch-container"><input type="checkbox" id="asthma-Wheezing" class="toggle-switch-input"><label for="asthma-Wheezing" class="toggle-switch-label"></label></div></div>
+                        <div class="form-group toggle-group"><label for="asthma-NighttimeSymptoms">Gece Semptomları</label><div class="toggle-switch-container"><input type="checkbox" id="asthma-NighttimeSymptoms" class="toggle-switch-input"><label for="asthma-NighttimeSymptoms" class="toggle-switch-label"></label></div></div>
+                        <div class="form-group toggle-group"><label for="asthma-ExerciseInduced">Egzersizle Tetiklenme</label><div class="toggle-switch-container"><input type="checkbox" id="asthma-ExerciseInduced" class="toggle-switch-input"><label for="asthma-ExerciseInduced" class="toggle-switch-label"></label></div></div>
+                        <div class="form-group toggle-group"><label for="asthma-GastroesophagealReflux">Gastroözofageal Reflü</label><div class="toggle-switch-container"><input type="checkbox" id="asthma-GastroesophagealReflux" class="toggle-switch-input"><label for="asthma-GastroesophagealReflux" class="toggle-switch-label"></label></div></div>
+                        <div class="form-group toggle-group"><label for="asthma-Eczema">Egzama</label><div class="toggle-switch-container"><input type="checkbox" id="asthma-Eczema" class="toggle-switch-input"><label for="asthma-Eczema" class="toggle-switch-label"></label></div></div>
+                        <div class="form-group toggle-group"><label for="asthma-HayFever">Saman Nezlesi</label><div class="toggle-switch-container"><input type="checkbox" id="asthma-HayFever" class="toggle-switch-input"><label for="asthma-HayFever" class="toggle-switch-label"></label></div></div>
+                        <div class="form-group toggle-group"><label for="asthma-PetAllergy">Evcil Hayvan Alerjisi</label><div class="toggle-switch-container"><input type="checkbox" id="asthma-PetAllergy" class="toggle-switch-input"><label for="asthma-PetAllergy" class="toggle-switch-label"></label></div></div>
+                        <div class="form-group"><label for="asthma-PollenExposure">Polen Maruziyeti <small>(1-10)</small>: <span id="asthma-PollenExposure-value">5</span></label><input type="range" id="asthma-PollenExposure" min="1" max="10" value="5"></div>
+                        <div class="form-group"><label for="asthma-LungFunctionFEV1">FEV1 <small>(Akciğer Fonksiyonu)</small>: <span id="asthma-LungFunctionFEV1-value">3</span></label><input type="range" id="asthma-LungFunctionFEV1" min="1" max="10" value="3" step="0.1"></div>
+                        <div class="form-group"><label for="asthma-LungFunctionFVC">FVC <small>(Akciğer Fonksiyonu)</small>: <span id="asthma-LungFunctionFVC-value">3</span></label><input type="range" id="asthma-LungFunctionFVC" min="1" max="10" value="3" step="0.1"></div>
+                    </div>
+                    <div class="button-group"><button type="submit" class="predict-btn"><i class="fas fa-flask"></i> Risk Raporu Oluştur</button><button type="button" class="predict-btn gemini-comment-btn" data-report="asthma">
+                        <img src="gemini_icon.png" alt="Gemini İkonu" class="gemini-button-icon"> Gemini'ye Yorumlat
+                    </button></div>
+                </form>
+                <div class="result"><div class="gauge-wrapper"><canvas id="asthma-riskDonutChart"></canvas><span class="gauge-percent" id="asthma-gaugePercentage">0%</span></div><p id="asthma-risk-level-text" class="risk-level-text"></p><p id="asthma-risk-suggestions" class="risk-suggestions"></p></div>
+            </div>
+
+            <div id="obesity-form-container" class="report-form-container">
+                <h3>Obezite Risk Analizi</h3>
+                <form id="obesity-health-form">
+                    <div class="form-grid">
+                        <div class="form-group"><label for="obesity-Age">Yaş: <span id="obesity-Age-value">25</span></label><input type="range" id="obesity-Age" min="10" max="80" value="25"></div>
+                        <div class="form-group"><label for="obesity-Gender">Cinsiyet</label><select id="obesity-Gender"><option value="Male">Erkek</option><option value="Female">Kadın</option></select></div>
+                        <div class="form-group"><label for="obesity-Height">Boy (m): <span id="obesity-Height-value">1.65</span></label><small>Boyunuzu metre cinsinden giriniz (örn: 1.75)</small><input type="range" id="obesity-Height" min="1.0" max="2.2" value="1.65" step="0.01"></div>
+                        <div class="form-group"><label for="obesity-Weight">Kilonuz (kg): <span id="obesity-Weight-value">75.0</span></label><input type="range" id="obesity-Weight" min="30" max="200" value="75" step="0.1"></div>
+                        <div class="form-group"><label for="obesity-FCVC">Sebze Tüketim Sıklığı: <span id="obesity-FCVC-value">2</span></label><small>1: Asla, 2: Bazen, 3: Her zaman</small><input type="range" id="obesity-FCVC" min="1" max="3" value="2" step="1"></div>
+                        <div class="form-group"><label for="obesity-NCP">Ana Öğün Sayısı: <span id="obesity-NCP-value">3</span></label><input type="range" id="obesity-NCP" min="1" max="4" value="3" step="1"></div>
+                        <div class="form-group"><label for="obesity-CH2O">Günlük Su Tüketimi: <span id="obesity-CH2O-value">2</span></label><small>1: 1L'den az, 2: 1-2L, 3: 2L'den fazla</small><input type="range" id="obesity-CH2O" min="1" max="3" value="2" step="1"></div>
+                        <div class="form-group"><label for="obesity-FAF">Haftalık Fiziksel Aktivite: <span id="obesity-FAF-value">1</span></label><small>0: Yok, 1: 1-2 gün, 2: 2-4 gün, 3: 4-5 gün</small><input type="range" id="obesity-FAF" min="0" max="3" value="1" step="1"></div>
+                        <div class="form-group"><label for="obesity-TUE">Teknoloji Cihaz Kullanım Süresi: <span id="obesity-TUE-value">1</span></label><small>0: 0-2 saat, 1: 3-5 saat, 2: 5+ saat</small><input type="range" id="obesity-TUE" min="0" max="2" value="1" step="1"></div>
+                        <div class="form-group"><label for="obesity-CAEC">Öğünler Arası Atıştırmalık</label><select id="obesity-CAEC"><option value="no">Hayır</option><option value="Sometimes">Bazen</option><option value="Frequently">Sıkça</option><option value="Always">Her zaman</option></select></div>
+                        <div class="form-group"><label for="obesity-CALC">Alkol Tüketimi</label><select id="obesity-CALC"><option value="no">Hayır</option><option value="Sometimes">Bazen</option><option value="Frequently">Sıkça</option></select></div>
+                        <div class="form-group"><label for="obesity-MTRANS">Ulaşım Şekli</label><select id="obesity-MTRANS"><option value="Public_Transportation">Toplu Taşıma</option><option value="Automobil">Otomobil</option><option value="Walking">Yürüyüş</option><option value="Motorbike">Motosiklet</option><option value="Bike">Bisiklet</option></select></div>
+                        <div class="form-group toggle-group"><label>Ailede Aşırı Kilo Öyküsü</label><div class="toggle-switch-container"><input type="checkbox" id="obesity-family_history_with_overweight" class="toggle-switch-input"><label for="obesity-family_history_with_overweight" class="toggle-switch-label"></label></div></div>
+                        <div class="form-group toggle-group"><label>FAVC <small>(Yüksek kalorili gıda tüketimi)</small></label><div class="toggle-switch-container"><input type="checkbox" id="obesity-FAVC" class="toggle-switch-input"><label for="obesity-FAVC" class="toggle-switch-label"></label></div></div>
+                        <div class="form-group toggle-group"><label>Sigara Kullanımı</label><div class="toggle-switch-container"><input type="checkbox" id="obesity-SMOKE" class="toggle-switch-input"><label for="obesity-SMOKE" class="toggle-switch-label"></label></div></div>
+                        <div class="form-group toggle-group"><label>Kalori Takibi</label><div class="toggle-switch-container"><input type="checkbox" id="obesity-SCC" class="toggle-switch-input"><label for="obesity-SCC" class="toggle-switch-label"></label></div></div>
+                    </div>
+                    <div class="button-group"><button type="submit" class="predict-btn"><i class="fas fa-flask"></i> Risk Raporu Oluştur</button><button type="button" class="predict-btn gemini-comment-btn" data-report="obesity">
+                        <img src="gemini_icon.png" alt="Gemini İkonu" class="gemini-button-icon"> Gemini'ye Yorumlat
+                    </button></div>
+                </form>
+                <div class="result"><div class="gauge-wrapper"><canvas id="obesity-riskDonutChart"></canvas><span class="gauge-percent" id="obesity-gaugePercentage">0%</span></div><p id="obesity-risk-level-text" class="risk-level-text"></p><p id="obesity-risk-suggestions" class="risk-suggestions"></p></div>
+            </div>
+            
+            <div id="alzheimer-form-container" class="report-form-container">
+                <h3>Alzheimer Risk Analizi</h3>
+                <form id="alzheimer-health-form">
+                    <div class="form-grid">
+                        <div class="form-group"><label for="alzheimer-Age">Yaş: <span id="alzheimer-Age-value">75</span></label><input type="range" id="alzheimer-Age" min="50" max="100" value="75"></div>
+                        <div class="form-group"><label for="alzheimer-Gender">Cinsiyet</label><select id="alzheimer-Gender"><option value="Male">Erkek</option><option value="Female">Kadın</option></select></div>
+                        <div class="form-group"><label for="alzheimer-EducationLevel">Eğitim Seviyesi (Yıl): <span id="alzheimer-EducationLevel-value">12</span></label><input type="range" id="alzheimer-EducationLevel" min="0" max="25" value="12"></div>
+                        <div class="form-group"><label for="alzheimer-MMSE">MMSE Skoru: <span id="alzheimer-MMSE-value">26</span></label><small>Mini-Mental Durum Muayenesi (Bilişsel fonksiyon testi)</small><input type="range" id="alzheimer-MMSE" min="0" max="30" value="26"></div>
+                        <div class="form-group toggle-group"><label>Ailede Alzheimer Öyküsü</label><div class="toggle-switch-container"><input type="checkbox" id="alzheimer-FamilyHistoryAlzheimers" class="toggle-switch-input"><label for="alzheimer-FamilyHistoryAlzheimers" class="toggle-switch-label"></label></div></div>
+                        <div class="form-group toggle-group"><label>Kalp Damar Hastalığı</label><div class="toggle-switch-container"><input type="checkbox" id="alzheimer-CardiovascularDisease" class="toggle-switch-input"><label for="alzheimer-CardiovascularDisease" class="toggle-switch-label"></label></div></div>
+                        <div class="form-group toggle-group"><label>Diyabet</label><div class="toggle-switch-container"><input type="checkbox" id="alzheimer-Diabetes" class="toggle-switch-input"><label for="alzheimer-Diabetes" class="toggle-switch-label"></label></div></div>
+                        <div class="form-group toggle-group"><label>Depresyon</label><div class="toggle-switch-container"><input type="checkbox" id="alzheimer-Depression" class="toggle-switch-input"><label for="alzheimer-Depression" class="toggle-switch-label"></label></div></div>
+                        <div class="form-group toggle-group"><label>Yüksek Tansiyon</label><div class="toggle-switch-container"><input type="checkbox" id="alzheimer-Hypertension" class="toggle-switch-input"><label for="alzheimer-Hypertension" class="toggle-switch-label"></label></div></div>
+                        <div class="form-group toggle-group"><label>Hafıza Şikayetleri</label><div class="toggle-switch-container"><input type="checkbox" id="alzheimer-MemoryComplaints" class="toggle-switch-input"><label for="alzheimer-MemoryComplaints" class="toggle-switch-label"></label></div></div>
+                    </div>
+                    <div class="button-group"><button type="submit" class="predict-btn"><i class="fas fa-flask"></i> Risk Raporu Oluştur</button><button type="button" class="predict-btn gemini-comment-btn" data-report="alzheimer">
+                        <img src="gemini_icon.png" alt="Gemini İkonu" class="gemini-button-icon"> Gemini'ye Yorumlat
+                    </button></div>
+                </form>
+                <div class="result"><div class="gauge-wrapper"><canvas id="alzheimer-riskDonutChart"></canvas><span class="gauge-percent" id="alzheimer-gaugePercentage">0%</span></div><p id="alzheimer-risk-level-text" class="risk-level-text"></p><p id="alzheimer-risk-suggestions" class="risk-suggestions"></p></div>
+            </div>
+
+            <div id="general-form-container" class="report-form-container">
+                <h3>Genel Sağlık Analizi</h3>
+                <form id="general-health-form">
+                    <div class="form-grid">
+                        <div class="form-group"><label for="general-Age"><i class="fas fa-user"></i> Yaşınız: <span id="general-Age-value">50</span></label><input type="range" id="general-Age" min="1" max="100" value="50"></div>
+                        <div class="form-group"><label for="general-BMI"><i class="fas fa-weight-scale"></i> BMI: <span id="general-BMI-value">25</span></label><input type="range" id="general-BMI" min="15" max="40" value="25" step="0.1"></div>
+                        <div class="form-group"><label for="general-PhysicalActivity"><i class="fas fa-running"></i> Fiziksel Aktivite (1-10): <span id="general-PhysicalActivity-value">5</span></label><input type="range" id="general-PhysicalActivity" min="1" max="10" value="5"></div>
+                        <div class="form-group"><label for="general-DietQuality"><i class="fas fa-carrot"></i> Diyet Kalitesi (1-10): <span id="general-DietQuality-value">5</span></label><input type="range" id="general-DietQuality" min="1" max="10" value="5"></div>
+                        <div class="form-group"><label for="general-StressLevel"><i class="fas fa-face-grimace"></i> Stres Seviyesi (1-10): <span id="general-StressLevel-value">5</span></label><input type="range" id="general-StressLevel" min="1" max="10" value="5"></div>
+                        <div class="form-group toggle-group"><label>Sigara Kullanımı Var mı?</label><div class="toggle-switch-container"><input type="checkbox" id="general-Smoking" class="toggle-switch-input"><label for="general-Smoking" class="toggle-switch-label"></label></div></div>
+                        <div class="form-group toggle-group"><label>Kronik Hastalıklar Var mı?</label><div class="toggle-switch-container"><input type="checkbox" id="general-ChronicDiseases" class="toggle-switch-input"><label for="general-ChronicDiseases" class="toggle-switch-label"></label></div></div>
+                    </div>
+                    <div class="button-group"><button type="submit" class="predict-btn"><i class="fas fa-flask"></i> Risk Raporu Oluştur</button><button type="button" class="predict-btn gemini-comment-btn" data-report="general">
+                        <img src="gemini_icon.png" alt="Gemini İkonu" class="gemini-button-icon"> Yapay Zeka Destekli Yorumlama
+                    </button></div>
+                </form>
+                <div class="result"><div class="gauge-wrapper"><canvas id="general-riskDonutChart"></canvas><span class="gauge-percent" id="general-gaugePercentage">0%</span></div><p id="general-risk-level-text" class="risk-level-text"></p><p id="general-risk-suggestions" class="risk-suggestions"></p></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="methods">
+        <h2 data-aos="fade-up"><i class="fas fa-flask"></i> Metodolojimiz</h2>
+        <p class="section-description" data-aos="fade-up" data-aos-delay="100">
+            Risk analizlerimizi ve önerilerimizi oluştururken kullandığımız bilimsel yaklaşımlar ve teknolojiler.
+        </p>
+        <div class="methods-grid">
+            <div class="method-card" data-aos="zoom-in" data-aos-delay="200">
+                <i class="fas fa-database"></i>
+                <h3>Sağlık Veri Analizi</h3>
+                <p>Kişisel sağlık verilerinizi gelişmiş algoritmalarla analiz ederek risk faktörlerini belirliyoruz.</p>
+            </div>
+            <div class="method-card" data-aos="zoom-in" data-aos-delay="300">
+                <i class="fas fa-chart-line"></i>
+                <h3>Makine Öğrenimi Modelleri</h3>
+                <p>Büyük veri setleri üzerinde eğitilmiş makine öğrenimi modelleriyle daha doğru tahminler yapıyoruz.</p>
+            </div>
+            <div class="method-card" data-aos="zoom-in" data-aos-delay="400">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Kişiselleştirilmiş Öneriler</h3>
+                <p>Size özel yaşam tarzı ve diyet önerileri sunarak sağlığınızı iyileştirmenize yardımcı oluyoruz.</p>
+            </div>
+            <div class="method-card" data-aos="zoom-in" data-aos-delay="500">
+                <img src="gemini_icon.png" alt="Gemini İkonu" class="gemini-icon-for-card">
+                <h3>Yapay Zeka Destekli Yorumlama</h3>
+                <p>Yapay zeka entegrasyonu ile raporlarınızı daha detaylı yorumlayarak size rehberlik ediyoruz.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 data-aos="fade-up"><i class="fas fa-envelope"></i> Bize Ulaşın</h2>
+        <p class="section-description" data-aos="fade-up" data-aos-delay="100">
+            Her türlü sorunuz, geri bildiriminiz veya işbirliği teklifiniz için bizimle iletişime geçebilirsiniz.
+        </p>
+        <div class="contact-info" data-aos="fade-up" data-aos-delay="200">
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i> Adres: Google, Türkiye
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-phone-alt"></i> Telefon: +90 555 123 45 67
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i> E-posta: info@predisureai.com
+            </div>
+        </div>
+        <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
+            <form>
+                <div class="form-group">
+                    <label for="contact-name"><i class="fas fa-user"></i> Adınız Soyadınız:</label>
+                    <input type="text" id="contact-name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="contact-email"><i class="fas fa-at"></i> E-posta Adresiniz:</label>
+                    <input type="email" id="contact-email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="contact-message"><i class="fas fa-comment-alt"></i> Mesajınız:</label>
+                    <textarea id="contact-message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="predict-btn"><i class="fas fa-paper-plane"></i> Mesaj Gönder</button>
+            </form>
+        </div>
+    </section>
+
+    <div id="gemini-chat-widget">
+        <div id="gemini-chat-container" class="minimized">
+            <div id="gemini-chat-header">
+                <h3>Yapay Zeka Asistanı</h3>
+                <div class="chat-header-controls">
+                    <button id="minimize-chat-btn">&minus;</button>
+                    <button id="close-chat-btn">X</button>
+                </div>
+            </div>
+            <div id="gemini-chat-messages">
+                <div class="message bot-message">
+                    Merhaba! Ben PredisureAI. Size nasıl yardımcı olabilirim?
+                </div>
+            </div>
+            <div class="gemini-chat-input-area">
+                <textarea id="gemini-chat-prompt" placeholder="Mesajınızı yazın..." rows="1"></textarea>
+                <button id="gemini-chat-send-button"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+        <button id="gemini-chat-icon">
+            <img src="gemini_icon.png" alt="Chatbot Icon">
+        </button>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 PredisureAI. Tüm Hakları Saklıdır.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.4/lottie.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
