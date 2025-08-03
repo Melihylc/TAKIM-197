@@ -225,12 +225,15 @@ Görevlerin puanlamasında şu kriterler dikkate alındı:
 
 ## 🗓 Daily Scrum Özeti  
 Sprint boyunca her gün düzenli yapılan takım içi toplantılarla ilerleyiş yakından takip edildi. Her üye yaptığı geliştirmeleri ve varsa engelleri paylaştı. Bu sprintte herhangi bir gecikme ya da blokaj yaşanmadı. A/B testlerinden alınan geri bildirimler günlük toplantılarda değerlendirilerek anlık iyileştirmelere gidildi.
+<img width="933" height="465" alt="56656" src="https://github.com/user-attachments/assets/9153a03d-698a-4877-8a59-c1a2dc2965e0" />
+
 
 ---
 
 ## 📋 Sprint Board Ekran Görüntüsü  
 Sprint 3'e ait Trello/Jira panosunda tüm görevler planlandığı şekilde tamamlandı.  
-> *(Görsel buraya eklenebilir)*
+<img width="1303" height="876" alt="sprint 3 trello" src="https://github.com/user-attachments/assets/aeaebf29-6458-4d13-bf68-0f859e266916" />
+
 
 ---
 
