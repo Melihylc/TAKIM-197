@@ -34,13 +34,10 @@ Bu proje, kullanıcının genetik verilerini analiz ederek obezite, Alzheimer ve
 
 ## Kullanım
 
-1. Genetik verilerinizi ve sağlık bilgilerinizi platforma girin.  
+1.  Sağlık bilgilerinizi platforma girin.  
 2. ‘Hesapla’ butonuna tıklayarak risk analizinizin yapılmasını sağlayın.  
 3. Size özel oluşturulan risk raporlarını inceleyin ve önerileri takip edin.
 
-## Katkıda Bulunma
-
-Projeye katkı sağlamak veya önerilerde bulunmak isterseniz, lütfen [iletişim bilgileri] üzerinden bizimle iletişime geçin.
 
 
 
