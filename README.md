@@ -13,12 +13,11 @@ Takım - 197 AI
 (https://takim197.atlassian.net/)
 
 ## 📄 Ürün Açıklaması
-Bu proje, kullanıcının genetik verilerini analiz ederek belirli hastalıklara veya durumlara yatkınlıklarını tahmin etmeyi amaçlamaktadır. Kullanıcının genetik geçmişi, yaşam tarzınız ve mevcut sağlık verileriniz üzerinden sağlık durumu hakkında kişiselleştirilmiş bilgiler ve öneriler sunulur.
+Bu proje, kullanıcının genetik verilerini analiz ederek belirli hastalıklara veya durumlara yatkınlıklarını tahmin etmeyi amaçlamaktadır. Kullanıcının genetik geçmişi, yaşam tarzı ve mevcut sağlık verileri üzerinden sağlık durumu hakkında kişiselleştirilmiş bilgiler ve öneriler sunulur.
 
 ## ✨ Ürün Özellikleri
-- Genetik veri yükleme desteği  
-- Genetik varyant analizi  
-- Yatkınlık tahmini (örnek: diyabet, kalp hastalığı)  
+- Genetik veri yükleme desteği    
+- Yatkınlık tahmini obezite, alzheimer ve astım  
 - Kişiye özel sağlık önerileri  
 - Kullanıcı dostu arayüz  
 
