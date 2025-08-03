@@ -18,10 +18,19 @@ Kullanıcı dostu arayüz ve yapay zekâ destekli akıllı sağlık asistanı sa
 Geleceğiniz için sağlıklı bir yaşam yolunda size rehberlik eder.
 
 ## ✨ Ürün Özellikleri
-- Genetik veri yükleme desteği    
-- Yatkınlık tahmini obezite, alzheimer ve astım  
-- Kişiye özel sağlık önerileri  
-- Kullanıcı dostu arayüz  
+Genetik Veri Analizi: Kullanıcının genetik yapısını inceleyerek hastalık yatkınlıklarını tahmin eder.
+
+Kişiselleştirilmiş Risk Raporları: Genetik geçmiş, yaşam tarzı ve sağlık verilerine dayalı özel raporlar sunar.
+
+Yapay Zekâ Destekli Tahmin: Obezite, Alzheimer ve astım gibi hastalıklara yakalanma riskini önceden belirler.
+
+Kullanıcı Dostu Arayüz: Bilgilerin kolayca girilmesini ve sonuçların anlaşılır şekilde görüntülenmesini sağlar.
+
+Akıllı Sağlık Asistanı: Karmaşık verileri sadeleştirir, kişiye özel sağlık önerileri sunar.
+
+Sağlık Yönetimi: Kullanıcının sağlığını bilinçli şekilde yönetmesine ve yaşam kalitesini artırmasına yardımcı olur.
+
+Geleceğe Yönelik Destek: Sağlıklı yaşam alışkanlıkları için rehberlik sağlar.
 
 ## 🎯 Hedef Kitle
 Her yaş grubundan, sağlık durumunu genetik temelli analizlerle öğrenmek isteyen bireyler.
